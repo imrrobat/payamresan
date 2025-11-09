@@ -2,8 +2,11 @@ import requests
 
 class Payamak:
     BASE_URL = "https://api.sms-webservice.com/api/V3/Send"
+    
+    #sandbox
+    # BASE_URL = "https://api.sms-webservice.com/api/V3SandBox/Send/"
 
-    def __init__(self, api_key, sender=5000):
+    def __init__(self, api_key, sender=50004075014432):
         self.api_key = api_key
         self.sender = sender
 
