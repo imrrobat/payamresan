@@ -24,6 +24,10 @@ payam = Payamak(api_key="YOUR_API_KEY", sender="YOUR_SENDER_NUMBER")
 payam.send_sms("Hello!", "+989123456789")
 ```
 
+📝 Note:
+The sender must be an integer (e.g., 50004075014432).
+You can also omit it if you want the default sender to be used by the API.
+
 ---
 
 ## ✅ Checking for Success or Error

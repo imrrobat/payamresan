@@ -6,7 +6,7 @@ class Payamak:
     #sandbox
     # BASE_URL = "https://api.sms-webservice.com/api/V3SandBox/Send/"
 
-    def __init__(self, api_key, sender=50004075014432):
+    def __init__(self, api_key:str, sender:int=50004075014432):
         self.api_key = api_key
         self.sender = sender
 
