@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "payamresan"
-version = "0.1.4"
+version = "0.1.5"
 description = "SMS sending module for payam-resan.com"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -14,7 +14,7 @@ authors = [
 dependencies = [
     "requests"
 ]
-keywords = ["sms", "payamak", "python", "payamresan"]
+keywords = ["sms", "payamak", "payamresan"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

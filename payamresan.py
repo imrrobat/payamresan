@@ -10,7 +10,7 @@ class Payamak:
         self.api_key = api_key
         self.sender = sender
 
-    def send_sms(self, text, *recipients):
+    def send_sms(self, text, *recipients)->dict:
         recipients_str = ",".join(recipients)
         url = f"{self.BASE_URL}?ApiKey={self.api_key}&Text={text}&Sender={self.sender}&Recipients={recipients_str}"
 

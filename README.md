@@ -56,6 +56,6 @@ else:
 
 ---
 
-## 🧑‍💻 Author
+## ☕️ Support
 
-Ali – [GitHub](https://github.com/yourusername)
+if you enjoy, [buy me a coffee](https://www.coffeebede.com/mrrobat)
