@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "payamresan"
-version = "0.1.3"
+version = "0.1.4"
 description = "SMS sending module for payam-resan.com"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-    { name = "Ali Heydari", email = "imrrobat@example.com" }
+    { name = "Ali Heydari", email = "imrrobat@gmail.com" }
 ]
 dependencies = [
     "requests"
@@ -23,3 +23,4 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/imrrobat/payamresan"
+Payamresan = "https://payam-resan.com/"

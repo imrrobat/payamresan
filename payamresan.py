@@ -18,7 +18,9 @@ class Payamak:
             response = requests.get(url)
             response.raise_for_status() 
 
-            return response.text
+            res = str(response.text).replace('true','True').replace('false','False').replace('null','None')
+            
+            return res
 
         except requests.exceptions.RequestException as err:
             print(f"❌ Error sending SMS: {err}")
